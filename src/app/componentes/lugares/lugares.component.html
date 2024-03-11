@@ -1,0 +1,36 @@
+
+<div id="contenedor">
+    <div id="titulo">
+        <h1>Sevilla</h1>
+        <p>Sevilla, la capital de Andalucía, es uno de los lugares más apreciados de 
+            España en el exterior. Aunque su influencia arquitectónica musulmana es 
+            lo más llamativo, -ya que fue ocupada por los moros durante unos 800 años-
+            mucho antes había sido un centro cultural de gran importancia. En ella se 
+            registra la existencia, como primeros pobladores, de una muy alta cultura,
+            la tartesa, un pueblo pacífico y culto del que se sabe gracias a las
+            crónicas griegas y a restos arqueológicos.</p>
+    </div>
+    <div id="cards">
+        <mat-card *ngFor="let lugar of lugares">
+            <mat-card-header>
+              <mat-card-title>{{ lugar.titulo }}</mat-card-title>
+            </mat-card-header>
+            <img mat-card-image [src]="lugar.imagen1" alt="Foto de {{ lugar.titulo }}">
+            <mat-card-content>
+              <p *ngIf="lugar.descripcion.split(' ').length >= 50">{{lugar.descripcion.split(' ').slice(0,50).join(' ')}}...</p>
+              <p *ngIf="lugar.descripcion.split(' ').length < 50">{{lugar.descripcion}}</p>
+            </mat-card-content>
+            <mat-card-actions>
+              <button mat-raised-button color="accent" [routerLink]="['/lugares', lugar.titulo]">Leer más</button>
+              <div class="puntuacion" *ngIf="lugar?.puntuacion ?? 0 > 0">
+                <p>{{ lugar?.puntuacion }}</p>
+                <mat-icon style="color:rgb(236, 158, 40)"aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+              </div>
+              <div class="puntuacion" *ngIf="!(lugar?.puntuacion ?? 0) || lugar?.puntuacion === undefined">
+                <p>NV</p>
+                <mat-icon style="color:rgb(48, 48, 48)"aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+              </div>
+            </mat-card-actions>
+        </mat-card>          
+      </div>
+    </div>

@@ -1,0 +1,63 @@
+<h2>¿Quieres añadir un lugar?</h2>
+<form [formGroup]="anadirForm" (ngSubmit)="onSubmit()">
+  <div id="contenedor">
+    <div>
+      <mat-form-field appearance="fill">
+          <mat-label>Nombre del lugar</mat-label>
+          <input matInput formControlName="titulo" placeholder="Nombre del lugar">
+        </mat-form-field>
+        
+        <mat-form-field appearance="fill">
+          <mat-label>Ubicación</mat-label>
+          <input matInput formControlName="ubicacion" placeholder="Ubicación">
+        </mat-form-field>
+        
+        <mat-form-field appearance="fill">
+          <mat-label>Horario</mat-label>
+          <input matInput formControlName="horario" placeholder="Horario">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Precios</mat-label>
+          <input matInput formControlName="precio" placeholder="Precios">
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field appearance="fill">
+          <mat-label>Imagen 1</mat-label>
+          <input matInput formControlName="imagen1" placeholder="Imagen del sitio">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Imagen 2</mat-label>
+          <input matInput formControlName="imagen2" placeholder="Imagen del sitio">
+        </mat-form-field>
+
+        <mat-form-field appearance="fill">
+          <mat-label>Imagen 3</mat-label>
+          <input matInput formControlName="imagen3" placeholder="Imagen del sitio">
+        </mat-form-field>
+      
+        <mat-form-field appearance="fill">
+          <mat-label>Imagen 4</mat-label>
+          <input matInput formControlName="imagen4" placeholder="Imagen del sitio">
+        </mat-form-field>
+      </div>
+      <div>
+        <mat-form-field class="textarea" appearance="fill">
+          <mat-label>Información</mat-label>
+          <textarea matInput formControlName="descripcion" placeholder="Este lugar..."></textarea>
+        </mat-form-field>
+        
+        <mat-form-field class="textarea" appearance="fill">
+          <mat-label>Historia</mat-label>
+          <textarea matInput formControlName="historia" placeholder="Imagen del sitio"></textarea>
+        </mat-form-field>
+      </div>
+    </div>
+    <div id="botones">
+      <button mat-button mat-dialog-close>Cancelar</button>
+      <button mat-raised-button color="primary" type="submit">Añadir lugar</button>
+    </div>
+  </form>
+  

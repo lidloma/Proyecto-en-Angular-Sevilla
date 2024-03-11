@@ -1,0 +1,47 @@
+<h2>Administrar lugares</h2>
+<div id="main-body">
+  <div id="filter">
+    <mat-form-field>
+      <mat-label>Filter</mat-label>
+      <input matInput (keyup)="applyFilter($event)" placeholder="Introduzca algo para buscar" #input>
+    </mat-form-field>
+
+    <button mat-raised-button color="primary" (click)="anadirLugar()">Añadir lugar</button>
+  </div>
+  <div id="tabla">
+    <div class="mat-elevation-z8">
+      <table mat-table [dataSource]="dataSource" matSort>
+    
+        <ng-container matColumnDef="titulo">
+          <th mat-header-cell *matHeaderCellDef mat-sort-header> Nombre del lugar </th>
+          <td mat-cell *matCellDef="let row"> {{row.titulo}} </td>
+        </ng-container>
+    
+        <ng-container id="contenedorAcciones"matColumnDef="actions">
+          <th id="acciones" mat-header-cell *matHeaderCellDef mat-sort-header> Acciones </th>
+          <td mat-cell *matCellDef="let row" id="fila">
+              <button class="acciones" mat-icon-button color="primary" (click)="editarLugar(row)">
+                <mat-icon>edit</mat-icon>
+              </button>
+              <button class="acciones" mat-icon-button color="warn" (click)="borrarLugar(row)">
+                <mat-icon >delete</mat-icon>
+              </button>
+          </td>
+        </ng-container>
+    
+        <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+        <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    
+        <tr class="mat-row" *matNoDataRow>
+          <td class="mat-cell" colspan="4">No hay datos que mostrar "{{input.value}}"</td>
+        </tr>
+      </table>
+    
+      <mat-paginator [pageSizeOptions]="[5, 10, 25, 100]" aria-label="Selecciona una página"></mat-paginator>
+    </div>
+    <div id="pdf">
+      <p>¿Deseas obtener la información de los lugares en PDF?</p>
+      <button mat-raised-button color="primary" (click)="exportToPdf()">Exportar a PDF</button>
+    </div>
+  </div>
+</div>

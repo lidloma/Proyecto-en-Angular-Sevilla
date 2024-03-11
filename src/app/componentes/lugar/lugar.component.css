@@ -1,0 +1,91 @@
+.galeria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.principal {
+  margin-bottom: 20px;
+  display:flex;
+}
+
+.pequenias {
+  display: flex;
+  justify-content: center;
+}
+
+.pequenias img {
+  width: 100px;
+  height: auto; /* Ajusta la altura automáticamente */
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.principal img {
+  max-width: 90%; /* Tamaño máximo para asegurar la responsividad */
+  height:500px; /* Ajusta la altura automáticamente */
+  margin: 5px auto; /* Centra horizontalmente */
+}
+
+h2{
+  text-align:center;
+  margin-top:5.5%;
+  margin-bottom:4%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size:40px;
+}
+
+h3{
+  color:#00897B;
+  margin-left:10%;
+  margin-right:10%;
+  margin-top:3%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size:20px;
+
+}
+
+p{
+  margin-right:10%;
+  margin-left:10%;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  font-size:16px;
+
+}
+
+#valoracion{
+  margin-right:10%;
+  margin-left:10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width:6%;
+  text-align: center;
+  border-radius:10px;
+  padding:10px
+}
+
+#valoracion p:hover{
+  text-decoration:underline;
+}
+
+#valoracion p{
+  margin-top:23%;
+  font-size:20px;
+}
+
+#comentarios{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

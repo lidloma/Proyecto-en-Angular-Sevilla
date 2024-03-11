@@ -1,0 +1,22 @@
+div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h2{
+    margin-top:6%;
+    text-align: center;
+}
+div p{
+    margin-top:5%;
+    margin-bottom:10%;
+}
+
+div div {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:35%;
+}

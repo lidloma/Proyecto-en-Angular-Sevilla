@@ -1,0 +1,8 @@
+La aplicación entregada se trata de una guía turística de Sevilla. 
+Hay cuatro usuarios:
+- mar@gmail.com y la contraseña es lidiaa
+- e@gmail.com y la contraseña es administrador 
+- usuario1@gmail.com y la contraseña 123456
+- usuario2@gmail.com y la contraseña 123456
+
+El único admin es e@gmail.com

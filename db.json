@@ -1,0 +1,201 @@
+{
+  "users": [
+    {
+      "id": "e386",
+      "email": "mar@gmail.com",
+      "nombre": "Lidia",
+      "apellidos": "López",
+      "telefono": "678938989",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmUiOiJMaWRpYSIsImVtYWlsIjoibWFyQGdtYWlsLmNvbSIsImNvbnRyYXNlbmEiOiJsaWRpYWEiLCJyb2wiOiJ1c3VhcmlvIn0.TLSErCFshdOG-dg6b5YDBXRk-dZIaWQn5O6dweQNoxQ",
+      "fechaNacimiento": "",
+      "genero": "",
+      "rol": "usuario",
+      "comunidadOrigen": ""
+    },
+    {
+      "id": "387",
+      "email": "e@gmail.com",
+      "nombre": "Lid",
+      "apellidos": "Lop",
+      "telefono": "12334534",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmUiOiJMaWQiLCJlbWFpbCI6ImVAZ21haWwuY29tIiwiY29udHJhc2VuYSI6ImFkbWluaXN0cmFkb3IiLCJyb2wiOiJhZG1pbmlzdHJhZG9yIn0.QlbwoPNmPeSUtjjT3TAo39coBEhPeekMjAX4u0R6d6g",
+      "fechaNacimiento": "",
+      "genero": "",
+      "rol": "administrador",
+      "comunidadOrigen": ""
+    },
+    {
+      "id": "f4aa",
+      "email": "usuario1@gmail.com",
+      "nombre": "Usuario1",
+      "apellidos": "Usuario1",
+      "telefono": "1234567",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmUiOiJVc3VhcmlvMSIsImVtYWlsIjoidXN1YXJpbzFAZ21haWwuY29tIiwiY29udHJhc2VuYSI6IjEyMzQ1NiIsInJvbCI6InVzdWFyaW8ifQ.wjcGXsHsyMIsGJ9VpcVeiexZ_b9JL7zUSPttBTuhsQI",
+      "fechaNacimiento": "",
+      "genero": "Otro",
+      "rol": "usuario",
+      "comunidadOrigen": "No especificada"
+    },
+    {
+      "id": "ba3b",
+      "email": "usuario2@gmail.com",
+      "nombre": "Usuario2",
+      "apellidos": "Usuario2",
+      "telefono": "1234567",
+      "contrasena": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJub21icmUiOiJVc3VhcmlvMiIsImVtYWlsIjoidXN1YXJpbzJAZ21haWwuY29tIiwiY29udHJhc2VuYSI6IjEyMzQ1NiIsInJvbCI6InVzdWFyaW8ifQ.Sgavqk-jQ8K3Y07DhoWIacNdKRaWB4n6hERbV9Cly-U",
+      "fechaNacimiento": "",
+      "genero": "",
+      "rol": "usuario",
+      "comunidadOrigen": ""
+    }
+  ],
+  "lugar": [
+    {
+      "id": "e3867",
+      "titulo": "Real Alcázar de Sevilla",
+      "imagen1": "../../../assets/img/alcazar.jpeg",
+      "imagen2": "../../../assets/img/alcazar2.jpg",
+      "imagen3": "../../../assets/img/alcazar3.jpg",
+      "imagen4": "../../../assets/img/alcazar4.jpg",
+      "descripcion": "El Real Alcázar de Sevilla es un conjunto palaciego amurallado construido en diferentes etapas históricas. El palacio original se edificó en la Alta Edad Media. Se conservan algunos vestigios de arte islámico y, de la etapa posterior a la conquista castellana, un espacio palaciego mudéjar y otro de estilo gótico.",
+      "ubicacion": "Patio de Banderas, s/n, Casco Antiguo, 41004 Sevilla",
+      "horario": "9:30 - 17:00 todos los días",
+      "historia": "El conjunto del Real Alcázar de Sevilla tiene su origen en la evolución que la antigua Hispalis romana, la Spali de tiempo de los godos, experimentó durante la Alta Edad Media, cuando la ciudad pasó a denominarse Ixbilia. Y más concretamente a comienzos del siglo X, en el momento en que el Califa de Córdoba Abderrahmán III an-Násir ordenó, en el 913, el levantamiento de un nuevo recinto de gobierno, la Dar al-Imara, en el flanco meridional de la ciudad, según los testimonios más fidedignos. Antes la sede del poder omeya de al-Andalus estuvo dentro del espacio de la ciudad bajo-imperial romana, no lejos de la mezquita aljama hispalense, localizada en la actual Colegiata del Salvador. El espacio de poder más característico de Sevilla se encontró ya ligado al puerto de la ciudad, la sede más relevante de su actividad económica. ",
+      "puntuacion": 5
+    },
+    {
+      "id": "e3868",
+      "titulo": "Plaza de España",
+      "imagen1": "../../../assets/img/plazaespaña.jpg",
+      "imagen2": "../../../assets/img/plazaespaña2.jpg",
+      "imagen3": "../../../assets/img/plazaespaña3.jpg",
+      "imagen4": "../../../assets/img/plazaespaña4.jpg",
+      "descripcion": "La plaza de España es un conjunto arquitectónico enclavado en el parque de María Luisa de la ciudad de Sevilla. Fue proyectada por el arquitecto Aníbal González. Se levantó entre 1914 y 1929 y es la construcción más grande de la Exposición Iberoamericana de 1929.​​",
+      "ubicacion": "Av. Isabel la Católica",
+      "horario": "10 a 20 horas todos los días",
+      "historia": "Se construyó con motivo de la Exposición Iberoamericana de 1929, de la cual fue sede Sevilla. Su autor es Aníbal González. Mezcló un estilo inspirado en el Renacimiento, con los elementos típicos de la ciudad: ladrillo visto, cerámica y forja (realizada por Domingo Prida). Su planta es semicircular. Está dominada por 2 torres, una a cada lado del recinto que enmarcan al edificio central, donde se encuentran las estancias. Entre ambas torres corre una red de galerías con arcada de medio punto que tienen salida a diferentes zonas de la plaza, donde se alza una fuente.",
+      "puntuacion": 3
+    },
+    {
+      "id": "e3869",
+      "titulo": "La Giralda",
+      "imagen1": "../../../assets/img/giralda.jpg",
+      "imagen2": "../../../assets/img/giralda2.webp",
+      "imagen3": "../../../assets/img/giralda3.jpg",
+      "imagen4": "../../../assets/img/giralda4.jpg",
+      "descripcion": "Giralda es el nombre que recibe la torre campanario de la catedral de Santa María de la Sede de la ciudad de Sevilla, en Andalucía (España). La parte inferior de la torre corresponde al alminar de la antigua mezquita de la ciudad, de finales del siglo xii, en la época almohade, mientras que la parte superior es una construcción sobrepuesta en el siglo xvi, en época cristiana, para albergar las campanas. En su cúspide se halla la estatua de bronce que representa el Triunfo de la Fe y que tiene función de veleta, el Giraldillo.",
+      "ubicacion": "Av. de la Constitución, s/n, Casco Antiguo, 41004 Sevilla",
+      "horario": "11:00 - 17:00 de Lunes a Sábados y 14:30 - 18:00 los Domingos ",
+      "historia": "La Girada resume a las mil maravillas muchos siglos de historia sobre su propia fisonomía. La confluencia de los diferentes estilos arquitectónicos que la caracterizan es reflejo de las culturas que habitaron Sevilla. El resultado, ecléctico y singular, fascina a cualquier viajero. El primer tramo de la Giralda es de estilo almohade. Los arquitectos Ibn Basso y Alí de Gomara fueron los artífices de este alminar construido para la gran mezquita de la ciudad. Un terremoto en 1356 provocó la caída de las cuatro esferas de bronce que coronaban la torre. El cuerpo de campanas es de estilo renacentista, y fue diseñado por Hernán Ruiz en el siglo XVI. En su cúspide, a 104 metros de altura, podrás adivinar una veleta muy especial: el Giraldillo, otro símbolo de Sevilla.",
+      "puntuacion": 2
+    },
+    {
+      "id": "e38610",
+      "titulo": "Torre del Oro",
+      "imagen1": "../../../assets/img/torredeloro.jpg",
+      "imagen2": "../../../assets/img/torredeloro2.webp",
+      "imagen3": "../../../assets/img/torredeloro3.webp",
+      "imagen4": "../../../assets/img/torredeloro4.webp",
+      "descripcion": "La Torre del Oro de Sevilla es una torre albarrana situada en el margen oriental del río Guadalquivir, en la ciudad de Sevilla, Andalucía, España. Su origen es una construcción almohade de entre 1220 y 1221, aunque el segundo cuerpo fue construido por Pedro I a mediados del siglo xiv y el tercer cuerpo fue construido en 1760.2​ El primer cuerpo mide 15,20 metros de diámetro y el conjunto tiene 36,75 metros de altura.3​",
+      "ubicacion": "Torre del Oro, P.º de Cristóbal Colón, s/n, Casco Antiguo, 41001 Sevilla",
+      "horario": "9:30 - 17:30 de Lunes a Viernes, 10:30 - 18:30 Sábados y Domingos",
+      "historia": "Fue levantada en el primer tercio del siglo XIII, en los postreros momentos de los reinos de Taifas. Su nombre en árabe era Borg-al-Azajal, que venía a expresar, que el revestimiento dee azulejería dorada que destellaba al sol era como el oro y se reflejaba en el río dañando la vista. Abu-1.Ula fue el gobernador almohade que en 1220 la mandó edificar para defender la ciudad. Cerró también la entrada al puerto con una gruesa cadena que cruzaba el río y se sujetaba en otra torre (ya inexistente) en la orilla de Triana. Esta cadena fue la que partieron los marinos de Ramón Bonifaz en 1248 con la flota de la Reconquista.",
+      "puntuacion": 0
+    },
+    {
+      "id": "e38611",
+      "titulo": "Setas de Sevilla",
+      "imagen1": "../../../assets/img/setas.jpg",
+      "imagen2": "../../../assets/img/setas2.jpg",
+      "imagen3": "../../../assets/img/setas3.jpg",
+      "imagen4": "../../../assets/img/setas4.jpg",
+      "descripcion": "Metropol Parasol, conocido popularmente como Setas de Sevilla,2​ es una estructura en forma de pérgola de madera y hormigón ubicada en la céntrica plaza de la Encarnación de la ciudad de Sevilla, en la comunidad autónoma de Andalucía (España). Cuenta con unas dimensiones de 150 metros de largo, 70 metros de ancho y una altura aproximada de 26 metros. Su base alberga un mercado tradicional y locales de restauración en la planta baja, una plaza de espectáculos y el museo arqueológico Antiquarium. La estructura se corona con una terraza y un mirador que ofrece una vista panorámica del casco antiguo de la ciudad.",
+      "ubicacion": "Pl. de la Encarnación, s/n, Casco Antiguo, 41003 Sevilla",
+      "horario": "9:30 - 0:30 Todos los días (Lunes a Domingo)",
+      "historia": "El Mercado de la Encarnación es el primer mercado de abastos de la ciudad de Sevilla del que se tiene constancia. Fue construido sobre un antiguo convento medieval agustino llamado “Convento de la Encarnación”, dando su nombre a la Plaza en la que hoy nos encontramos. Diseñado por el arquitecto mayor de Sevilla, Melchor Cano, el mercado contaba con más de 400 puestos de productos frescos. Debido a su tamaño y ubicación, el mercado abastecía a toda la ciudad. Ya por esta época era un mercado moderno y se convirtió en algo mucho más que una zona comercial, era un punto de encuentro para los sevillanos. ",
+      "puntuacion": 0
+    },
+    {
+      "id": "e38612",
+      "titulo": "Museo de Bellas Artes",
+      "imagen1": "../../../assets/img/museodearte.jpg",
+      "imagen2": "../../../assets/img/museodearte2.avif",
+      "imagen3": "../../../assets/img/museodearte3.webp",
+      "imagen4": "../../../assets/img/museodearte4.jpeg",
+      "descripcion": "El Museo de Bellas Artes de Sevilla se crea por Real Orden de 16 de septiembre de 1835 como 'Museo de Pinturas'. En 1839 se escoge, de entre varios edificios conventuales desamortizados, el de la Merced, la actual sede, inaugurándose oficialmente en 1841.",
+      "ubicacion": "Pl. del Museo, 9, Casco Antiguo, 41001 Sevilla",
+      "horario": "9:00 - 21:00 de Martes a Sábado, 9:00 - 15:00 los Domingos y Lunes cerrado",
+      "historia": "Todo comienza con las diversas desamortizaciones, siendo la más conocida la denominada Desamortización de Mendizábal, una normativa con forma de dos Reales Decretos, de 25 de julio y 11 de octubre de 1835, en los que se establecía la supresión de monasterios de órdenes monacales y militares, así como los conventos. Teniendo en cuenta la ingente cantidad de obras artísticas que atesoraban cada uno de estos inmuebles, se determinó que los archivos, bibliotecas, pinturas y demás enseres que pudieran ser útiles a los institutos de ciencias y artes pasarían al Ministerio del Interior, quedando bajo la tutela de los Gobernadores Civiles de cada provincia, quienes, a su vez, debían nombrar a una Comisión, que sería la encargada de realizar el inventario y recoger dichos bienes.",
+      "puntuacion": 0
+    },
+    {
+      "id": "e386713",
+      "titulo": "Catedral de Sevilla",
+      "imagen1": "../../../assets/img/catedral.jpg",
+      "imagen2": "../../../assets/img/alcazar.jpeg",
+      "imagen3": "../../../assets/img/alcazar.jpeg",
+      "imagen4": "../../../assets/img/alcazar.jpeg",
+      "descripcion": "La Santa, Metropolitana y Patriarcal Iglesia Catedral de Santa María de la Sede y de la Asunción de Sevilla; más conocida como catedral de Sevilla, es un templo católico de estilo gótico. La Unesco la declaró en 1987, junto al Real Alcázar y el Archivo de Indias, Patrimonio de la Humanidad y, el 25 de julio de 2010, Bien de Valor Universal Excepcional. En 1988 el Libro Guinness de los Récords certificó que era la catedral con mayor superficie del mundo.",
+      "ubicacion": "Av. de la Constitución, s/n, Casco Antiguo, 41004 Sevilla",
+      "horario": "10:45 - 17:00 de Lunes a Sábado, 14:30 - 18:30 los Domingos",
+      "historia": "Soñaban, por qué no, que un día fuera la mejor Cátedra del Arzobispo de Sevilla y futuro Patriarca de la Indias; que en ella se celebrara el más esplendoroso culto litúrgico de la metrópoli hispalense; que asombrara a sus visitantes al caminar bajo sus bóvedas góticas, al descubrir su multiforme iconografía, (pintura, escultura, orfebrería, tejidos, libros corales, vidrieras), llenando las más diversas capillas góticas y renacentistas, para llegar después a encontrarse, en el remanso del Patio de los Naranjos, con las joyas bibliográficas y documentales que se custodian en el Archivo y Biblioteca Capitular, pórtico de un singular sancta sanctorum: la Biblioteca Colombina. Piedra a piedra ven crecer esa impresionante “montaña hueca”, bajo la severa mirada de la Giralda, señora de Sevilla.",
+      "puntuacion": 0
+    },
+    {
+      "id": "e38614",
+      "titulo": "Archivo de Indias",
+      "imagen1": "../../../assets/img/archivo.jpg",
+      "imagen2": "../../../assets/img/alcazar.jpeg",
+      "imagen3": "../../../assets/img/alcazar.jpeg",
+      "imagen4": "../../../assets/img/alcazar.jpeg",
+      "descripcion": "El Archivo General de Indias de Sevilla se creó en 1785 por deseo del rey Carlos III, con el objetivo de centralizar en un único lugar la documentación referente a la administración de los territorios ultramarinos españoles hasta entonces dispersa en diversos archivos, ubicados en Simancas, Cádiz y Sevilla.",
+      "ubicacion": "Av. de la Constitución, s/n, Casco Antiguo, 41004 Sevilla",
+      "horario": "9:30 - 16:30 de Lunes a Sábado, 10:00 - 13:30 los Domingos",
+      "historia": "En 1785 nacía por deseo del rey Carlos III el Archivo General de Indias con el objeto de reunir en un solo lugar los documentos referentes a Indias hasta entonces dispersos en Simancas (Valladolid), Madrid, Cádiz y Sevilla. El impulsor del proyecto fue don José de Gálvez, secretario de Indias, y el ejecutor del mismo fue el académico e historiador don Juan Bautista Muñoz, cosmógrafo mayor de Indias. El espléndido edificio, la Casa Lonja de Sevilla, que se construyó en época de Felipe II sobre planos de Juan de Herrera sirve hasta hoy como sede del Archivo.",
+      "puntuacion": 0
+    },
+    {
+      "id": "e38615",
+      "titulo": "Parque María Luisa",
+      "imagen1": "../../../assets/img/parque.jpg",
+      "imagen2": "../../../assets/img/alcazar.jpeg",
+      "imagen3": "../../../assets/img/alcazar.jpeg",
+      "imagen4": "../../../assets/img/alcazar.jpeg",
+      "descripcion": "El parque de María Luisa es el primer parque urbano de Sevilla y uno de sus pulmones verdes. En 1983 fue declarado Bien de Interés Cultural en la categoría de Jardín Histórico. Se inauguró el 18 de abril de 1914 como parque urbano Infanta María Luisa Fernanda.",
+      "ubicacion": "P.º de las Delicias, s/n, 41013 Sevilla",
+      "horario": "8.00 - 22.00 de Lunes a Viernes",
+      "historia": "En 1849 los duques de Montpensier, adquirieron el Palacio de San Telmo, hoy sede de la Presidencia de la Junta de Andalucía. Entre las diversas obras que acometieron en él, encargaron al jardinero francés Lecolant la ejecución de un gran jardín acorde con la majestuosidad del edificio que habían convertido en su residencia. Con objeto de disponer de suficiente superficie compraron terrenos colindantes como la Huerta del Naranjal y aquéllos sobre los que se asentó el antiguo convento de san Diego.",
+      "puntuacion": 0
+    }
+  ],
+  "opiniones": [
+    {
+      "id": "68af",
+      "usuario": "mar@gmail.com",
+      "sitio": "Real Alcázar de Sevilla",
+      "valoracion": "Me ha encantado la visita",
+      "puntuacion": "5"
+    },
+    {
+      "id": "2014",
+      "usuario": "usuario1@gmail.com",
+      "sitio": "Real Alcázar de Sevilla",
+      "valoracion": "Fui cuando visité Sevilla el fin de semana pasado y fue una experiencia maravillosa",
+      "puntuacion": "5"
+    },
+    {
+      "id": "a301",
+      "usuario": "mar@gmail.com",
+      "sitio": "Plaza de España",
+      "valoracion": "Lugar precioso para echar la tarde",
+      "puntuacion": "3"
+    },
+    {
+      "id": "f52e",
+      "usuario": "mar@gmail.com",
+      "sitio": "La Giralda",
+      "valoracion": "Cuando fui estaba con andamios y no se podía ver casi nada",
+      "puntuacion": "2"
+    }
+  ]
+}

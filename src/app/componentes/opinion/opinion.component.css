@@ -1,0 +1,28 @@
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left:10%;
+    margin-right:10%;
+    width:50%;
+}
+
+#select {
+    width:40%;
+}
+
+button{
+    width:30%;
+
+}
+
+h3{
+    color:#00897B;
+    margin-left:10%;
+    margin-right:10%;
+    margin-top:3%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size:20px;
+  
+  }

@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <div>
+        <span routerLink="lugares">SEVILLA</span>
+    </div>
+    <div id="opciones">
+        <button mat-raised-button color="accent" *ngIf="!getLoggedUser()" routerLink="login">Entrar</button>
+        <button mat-raised-button color="accent" *ngIf="!getLoggedUser()" routerLink="registro">Registrarse</button>
+        <button mat-raised-button color="accent" *ngIf="getLoggedUser()" (click)="logout()">Salir ({{ nombreUsuario }})</button>
+
+        <button mat-raised-button color="accent" *ngIf="rolUsuario == true" routerLink="administrar">Administrar lugares</button>
+    </div>
+</mat-toolbar>

@@ -1,0 +1,105 @@
+
+<h2>Formulario de registro</h2>
+<form [formGroup]="registroForm" (ngSubmit)="onSubmit()">
+  <div id="contenedor">
+    <div id="obligatorios">
+      <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email" type="email" placeholder="Ingrese su email">
+        <mat-error *ngIf="registroForm.get('email')?.hasError('required')">
+          Email es requerido
+        </mat-error>
+        <mat-error *ngIf="registroForm.get('email')?.hasError('email')">
+          Email no válido
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="fill">
+        <mat-label>Nombre</mat-label>
+        <input matInput formControlName="nombre" placeholder="Ingrese su nombre">
+        <mat-error *ngIf="registroForm.get('nombre')?.hasError('required')">
+          Nombre es requerido
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="fill">
+        <mat-label>Apellidos</mat-label>
+        <input matInput formControlName="apellidos" placeholder="Ingrese sus apellidos">
+        <mat-error *ngIf="registroForm.get('apellidos')?.hasError('required')">
+          Apellidos son requeridos
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="fill">
+        <mat-label>Teléfono</mat-label>
+        <input matInput type="tel" formControlName="telefono" placeholder="+34">
+        <mat-error *ngIf="registroForm.get('telefono')?.hasError('required')">
+          Teléfono es requerido
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="fill">
+        <mat-label>Contraseña</mat-label>
+        <input matInput formControlName="contrasena" type="password" placeholder="Ingrese su contraseña">
+        <mat-error *ngIf="registroForm.get('contrasena')?.hasError('required')">
+          Contraseña es requerida
+        </mat-error>
+        <mat-error *ngIf="registroForm.get('contrasena')?.hasError('minlength')">
+          Contraseña debe tener al menos 6 caracteres
+        </mat-error>
+      </mat-form-field>
+    
+      <mat-form-field appearance="fill">
+        <mat-label>Repetir Contraseña</mat-label>
+        <input matInput formControlName="repetirContrasena" type="password" placeholder="Repita su contraseña">
+        <mat-error *ngIf="registroForm.get('repetirContrasena')?.hasError('required')">
+          Repetir contraseña es requerida
+        </mat-error>
+      </mat-form-field>
+    </div>
+    <div id="opcionales">
+      <div>
+        <mat-form-field class="example-full-width">
+            <mat-label>Fecha de nacimiento</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="fechaNacimiento">
+            <mat-hint>MM/DD/YYYY</mat-hint>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <button mat-raised-button (click)="picker.open()">Open</button>
+      </div>
+        <mat-radio-group formControlName="genero" aria-label="Género">
+          <mat-radio-button value="femenino">Femenino</mat-radio-button>
+          <mat-radio-button value="masculino">Masculino</mat-radio-button>
+          <mat-radio-button value="otro">Otro</mat-radio-button>
+        </mat-radio-group>
+
+        <mat-form-field id="select">
+          <mat-label>Comunidad Autónoma</mat-label>
+          <mat-select formControlName="comunidadOrigen" disableRipple>
+            <mat-option value="Andalucía">Andalucía</mat-option>
+            <mat-option value="Canarias">Canarias</mat-option>
+            <mat-option value="Cantabria">Cantabria</mat-option>
+            <mat-option value="Cataluña">Cataluña</mat-option>
+            <mat-option value="Galicia">Galicia</mat-option>
+            <mat-option value="Islas Baleares">Islas Baleares</mat-option>
+            <mat-option value="La Rioja">La Rioja</mat-option>
+            <mat-option value="Navarra">Navarra</mat-option>
+            <mat-option value="País Vasco">País Vasco</mat-option>
+            <mat-option value="Aragón">Aragón</mat-option>
+            <mat-option value="Castilla La Mancha">Castilla La Mancha</mat-option>
+            <mat-option value="Castilla y León">Castilla y León</mat-option>
+            <mat-option value="Madrid">Madrid</mat-option>
+            <mat-option value="Valencia">Valencia</mat-option>
+            <mat-option value="Extremadura">Extremadura</mat-option>
+            <mat-option value="Ceuta">Ceuta</mat-option>
+            <mat-option value="Melilla">Melilla</mat-option>
+            <mat-option value="Asturias">Asturias</mat-option>
+            <mat-option value="Murcia">Murcia</mat-option>
+          </mat-select>
+        </mat-form-field>
+      </div>
+    </div>
+    <button id="registrarse" mat-raised-button color="primary" type="submit" [disabled]="registroForm.invalid">Registrarse</button>
+  </form>
+
+  

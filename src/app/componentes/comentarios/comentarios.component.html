@@ -1,0 +1,13 @@
+<div id="contenedor">
+    <div *ngIf="opinion.length==0">Nadie ha comentado todavía</div>
+    <div id="comentario" *ngFor="let elemento of opinion">
+        <div id="info">
+            <p>El usuario {{ elemento.usuario }} ha opinado: </p>
+            <p>{{ elemento.valoracion }}</p>
+        </div>
+        <div id="puntuacion">
+            <p>{{ elemento.puntuacion }}  Estrellas</p>
+        </div>
+    </div>
+</div>
+

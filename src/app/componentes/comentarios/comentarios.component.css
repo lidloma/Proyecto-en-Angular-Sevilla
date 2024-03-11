@@ -1,0 +1,27 @@
+#contenedor{
+    font-family: "Poppins";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#comentario{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:80%;
+    margin-top:1%;
+    border-radius:10px;
+    background-color: rgb(222, 222, 222);
+    padding:20px;
+    border-left:4px solid #148886;
+
+}
+
+
+
+#info{
+    text-align:left;
+}

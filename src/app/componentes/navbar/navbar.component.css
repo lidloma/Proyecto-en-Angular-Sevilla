@@ -1,0 +1,25 @@
+mat-toolbar{
+    display:flex;
+    justify-content: space-between;
+}
+
+#opciones button{
+    margin-left:20px;
+}
+
+#opciones{
+    margin-right:1.75%;
+}
+
+*{
+    font-family:"Poppins";
+
+}
+
+span{
+    font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size:25px;
+  margin-left:15%;
+}

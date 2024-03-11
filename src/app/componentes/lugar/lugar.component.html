@@ -1,0 +1,42 @@
+
+<div *ngIf="lugar">
+    <h2>{{ lugar.titulo }}</h2>
+
+    <div class="galeria">
+        <div class="principal">
+          <img id="imagenPrincipal" [src]="lugar.imagen1" alt="Imagen principal de {{ lugar.titulo }}">
+        </div>
+        <div class="pequenias">
+          <img [src]="lugar.imagen1" alt="Imagen 1 de {{ lugar.titulo }}" (click)="updateMainImage(lugar.imagen1)">
+          <img [src]="lugar.imagen2" alt="Imagen 2 de {{ lugar.titulo }}" (click)="updateMainImage(lugar.imagen2)">
+          <img [src]="lugar.imagen3" alt="Imagen 3 de {{ lugar.titulo }}" (click)="updateMainImage(lugar.imagen3)">
+          <img [src]="lugar.imagen4" alt="Imagen 4 de {{ lugar.titulo }}" (click)="updateMainImage(lugar.imagen4)">
+        </div>
+      </div>
+    
+    <h3>Descripción</h3>
+    <p>{{ lugar.descripcion }}</p>
+    <h3>Ubicación</h3>
+    <p>{{ lugar.ubicacion }}</p>
+    <h3>Horario</h3>
+    <p>{{ lugar.horario }}</p>
+    <h3>Historia</h3>
+    <p>{{ lugar.historia }}</p>  
+</div>
+
+
+<div id="comentarios">
+  <h3>Comentarios</h3>
+  <div id="valoracion">
+    <p>{{ mediaOpiniones }}</p>
+    <mat-icon style="color:rgb(236, 158, 40)"aria-hidden="false" aria-label="Example star icon" fontIcon="star"></mat-icon>
+  </div>
+</div>
+
+<app-comentarios></app-comentarios>
+
+<div *ngIf="email && rol !== 'administrador'">
+  <app-opinion></app-opinion>
+</div>
+
+
